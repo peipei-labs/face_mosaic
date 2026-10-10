@@ -9,8 +9,8 @@ title: 人脸自动打马赛克工具
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python"></a>
 <a href="https://mediapipe.dev/"><img src="https://img.shields.io/badge/MediaPipe-0.10+-green.svg" alt="MediaPipe"></a>
 <a href="https://opencv.org/"><img src="https://img.shields.io/badge/OpenCV-4.8+-orange.svg" alt="OpenCV"></a>
-<a href="https://github.com/xPeiPeix/face_mosaic/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="License"></a>
-<a href="https://github.com/xPeiPeix/face_mosaic/stargazers"><img src="https://img.shields.io/github/stars/xPeiPeix/face_mosaic?style=social" alt="GitHub Stars"></a>
+<a href="https://github.com/peipei-labs/face_mosaic/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="License"></a>
+<a href="https://github.com/peipei-labs/face_mosaic/stargazers"><img src="https://img.shields.io/github/stars/peipei-labs/face_mosaic?style=social" alt="GitHub Stars"></a>
 </p>
 
 基于 MediaPipe 实现的高精度人脸检测和自动马赛克处理工具，支持图片和视频处理，**完美保留原始音频**。
@@ -19,7 +19,7 @@ title: 人脸自动打马赛克工具
 
 ### 安装
 ```bash
-git clone https://github.com/xPeiPeix/face_mosaic.git
+git clone https://github.com/peipei-labs/face_mosaic.git
 cd face_mosaic
 pip install -r requirements.txt
 ```
@@ -85,11 +85,11 @@ python face_mosaic.py --batch-folder ./videos/ --max-workers 4
 
 ## 📚 项目文档
 
-- [项目源码和详细说明](https://github.com/xPeiPeix/face_mosaic)
+- [项目源码和详细说明](https://github.com/peipei-labs/face_mosaic)
 
 ## 📄 许可证
 
-本项目采用 [MIT 许可证](https://github.com/xPeiPeix/face_mosaic/blob/main/LICENSE)。
+本项目采用 [MIT 许可证](https://github.com/peipei-labs/face_mosaic/blob/main/LICENSE)。
 
 ---
 

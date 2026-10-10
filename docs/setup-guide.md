@@ -3,7 +3,7 @@
 ## 📄 启用GitHub Pages
 
 ### 步骤1：访问仓库设置
-1. 打开GitHub仓库页面：https://github.com/xPeiPeix/face_mosaic
+1. 打开GitHub仓库页面：https://github.com/peipei-labs/face_mosaic
 2. 点击顶部的 **Settings** 标签
 3. 在左侧菜单找到 **Pages** 选项
 
@@ -17,7 +17,7 @@
 - GitHub会自动构建并部署您的文档站点
 - 通常需要几分钟时间完成
 - 部署完成后，您的文档站点将在以下地址可用：
-  `https://xPeiPeix.github.io/face_mosaic/`
+  `https://peipei-labs.github.io/face_mosaic/`
 
 ## 🚀 创建v2.1.1 Release版本
 
@@ -52,7 +52,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/xPeiPeix/face_mosaic.git
+git clone https://github.com/peipei-labs/face_mosaic.git
 cd face_mosaic
 
 # 安装依赖
@@ -74,7 +74,7 @@ python face_mosaic.py --batch-folder ./videos/ --max-workers 4
 
 ## 📚 文档
 
-- [完整文档](https://xPeiPeix.github.io/face_mosaic/)
+- [完整文档](https://peipei-labs.github.io/face_mosaic/)
 - [使用教程](README.md)
 - [常见问题](docs/faq.md)
 

@@ -6,8 +6,8 @@
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-green.svg)](https://mediapipe.dev/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-orange.svg)](https://opencv.org/)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/xPeiPeix/face_mosaic?style=social)](https://github.com/xPeiPeix/face_mosaic/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/xPeiPeix/face_mosaic?style=social)](https://github.com/xPeiPeix/face_mosaic/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/peipei-labs/face_mosaic?style=social)](https://github.com/peipei-labs/face_mosaic/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/peipei-labs/face_mosaic?style=social)](https://github.com/peipei-labs/face_mosaic/network/members)
 
 </div>
 

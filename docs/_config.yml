@@ -1,11 +1,11 @@
 title: "人脸自动打马赛克工具"
 description: "基于MediaPipe的智能人脸马赛克工具 - 高精度检测，支持图片/视频处理，完美保留音频，批量并发处理"
-url: "https://xPeiPeix.github.io"
+url: "https://peipei-labs.github.io"
 baseurl: "/face_mosaic"
 
 # GitHub info
-github_username: xPeiPeix
-repository: "xPeiPeix/face_mosaic"
+github_username: peipei-labs
+repository: "peipei-labs/face_mosaic"
 
 # Build settings
 markdown: kramdown
@@ -42,4 +42,4 @@ navigation:
   - title: "常见问题"
     url: "/faq/"
   - title: "GitHub"
-    url: "https://github.com/xPeiPeix/face_mosaic" 
+    url: "https://github.com/peipei-labs/face_mosaic"
