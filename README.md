@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 | 包名 | 版本要求 | 功能 |
 |------|----------|------|
-| mediapipe | >=0.10.0,<0.11.0 | 人脸检测核心引擎 |
+| mediapipe | >=0.10.0,<=0.10.21 | 人脸检测核心引擎（需要 mp.solutions 接口） |
 | opencv-python | >=4.8.0,<5.0.0 | 图像视频处理 |
 | numpy | >=1.24.0,<2.0.0 | 数值计算（兼容版本） |
 | ffmpeg-python | >=0.2.0 | 音频处理和合并 |
@@ -201,10 +201,12 @@ pip install "numpy>=1.24.0,<2.0.0"
 ```
 
 **Q: MediaPipe 初始化失败**
+
+若出现 `AttributeError: module 'mediapipe' has no attribute 'solutions'`，说明安装的版本已移除本项目使用的接口。请安装兼容版本：
+
 ```bash
 # 重新安装 MediaPipe
-pip uninstall mediapipe
-pip install mediapipe>=0.10.0,<0.11.0
+python -m pip install "mediapipe>=0.10.0,<=0.10.21"
 ```
 
 **Q: 批量处理内存不足**
@@ -295,4 +297,4 @@ MIT License - 详见 LICENSE 文件
 
 ---
 
-**🎯 现在开始体验高质量的人脸马赛克处理，音频完美保留！** 
+**🎯 现在开始体验高质量的人脸马赛克处理，音频完美保留！**
